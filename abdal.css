@@ -1,0 +1,159 @@
+body {
+    background: url(background.png);
+    z-index: -1;
+    background-size: cover;
+    position: relative;
+}
+
+
+.contenr {
+    width: 80%;
+    height: 800px;
+    z-index: 2;
+    background-color: rgb(2 7 24 / 80%);
+    display: flex;
+    left: 12%;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+    border: white solid 2.49px;
+    box-shadow: 6px 8px 20px 1px;
+    ;
+    z-index: -1;
+    text-shadow: 2px 4px 5px 0px red;
+}
+
+.name {
+    color: aquamarine;
+    font-size: 25px;
+    position: relative;
+    top: -700px;
+    left: 350px;
+
+
+}
+
+.tytel {
+    color: aqua;
+    font-size: 80px;
+    position: relative;
+    top: -520px;
+    left: 350px;
+}
+
+.tytel-2 {
+
+    color: rgba(0, 195, 255, 0.562);
+    position: relative;
+    font-size: 50PX;
+
+    right: 520px;
+    top: -490px;
+    left: 350px;
+
+}
+
+.tytel-3 {
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 35px;
+    top: -450px;
+    width: 500px;
+    left: 350px;
+}
+
+.li-fac {
+    /* position: relative;
+    width: 40px;
+    bottom: 1200px;
+    left: 258px; */
+}
+
+/* .li-ins{
+    width: 20px;
+} */
+.link-socal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    height: 300px;
+    top: -800px;
+    left: 260px;
+    width: 50px;
+}
+
+.li-fac,
+.li-ins,
+.li-you {
+    width: 50px;
+    display: flex;
+    opacity: 0.5;
+    filter: blur(1px);
+    transition: all 0.8s ease-in-out 0.19s;
+}
+
+.li-fac:hover,
+.li-ins:hover,
+.li-you:hover {
+    opacity: 1;
+    filter: blur(0px);
+    border: solid rgb(255, 255, 255) 0.5px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 5px 0px rgb(0, 0, 0);
+    transform: rotate(1turn);
+}
+
+.img-girl {
+    position: relative;
+    bottom: 1173px;
+    width: 500px;
+    left: 1050px;
+}
+
+.dev {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1920px;
+    right: -950px;
+    font-size: 21px;
+
+}
+
+.dev-1,
+.dev-2,
+.dev-3,
+.dev-4 {
+    color: blueviolet;
+    text-decoration: none;
+    transition: all 1s ease;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.dev-1:hover,
+.dev-2:hover,
+.dev-3:hover,
+.dev-4:hover {
+    box-shadow: 2px 2px 8px 0px #bfdbfc;
+    color: #bfdbfc;
+
+}
+
+.tytel,
+.tytel-2,
+.tytel-3,
+.name {
+    text-shadow: 5px 4px 12px rgb(0, 0, 0);
+}
+
+.img-girl:hover {
+    transform: translateY(-4px);
+
+}
+
+.img-girl {
+    transition: all 1s ease;
+}
